@@ -1,0 +1,19 @@
+{
+  "name": "ggzhipin-serve",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "blueimp-md5": "^2.17.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongoose": "^5.10.2",
+    "morgan": "~1.9.1",
+    "socket.io": "^2.3.0"
+  }
+}

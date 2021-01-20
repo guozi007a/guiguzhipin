@@ -1,0 +1,33 @@
+.err-msg {
+    color: red;
+    text-align: center;
+    font-size: 18px;
+}
+
+// 让导航条始终在最底部
+.am-tab-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: inherit!important;
+}
+
+// 让顶部标题导航在最顶部固定
+.sticky-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 45px;
+    z-index: 2;
+}
+
+// 聊天消息居右
+#chat-page .chat-me .am-list-extra {
+    flex-basis: auto; /* 宽度包裹内容 */
+}
+#chat-page .chat-me .am-list-content {
+    padding-right: 15px;
+    text-align: right;
+}
+
+
